@@ -2,8 +2,9 @@
 
 /* variables */
 
-$black: #222;
+$grayDarker: #222;
 $gray: #555;
+$grayMediumLight: #eaeaea;
 $lightGray: #999;
 $white: #fff;
 
@@ -82,12 +83,12 @@ p {
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid $grayMediumLight;
   color: $lightGray;
   a {
     color: $gray;
     &:hover { 
-      color: $black;
+      color: $grayDarker;
     }  
   }
   small {
